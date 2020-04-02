@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { VideoPlayer } from './components'
+import { VideoPlayer, PlayList } from './components'
 
 function App() {
   return (
     <div className="App">
-      <VideoPlayer />
+      <VideoPlayer active />
+      <PlayList />
     </div>
   )
 }
