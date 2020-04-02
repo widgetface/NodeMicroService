@@ -6,7 +6,7 @@ function createExpressApp({config , env}){
     const app= express()
 
     mountMiddleware(app, env)
-    mountRoutes(app, config)
+    //mountRoutes(app, config)
 
     return app
 }

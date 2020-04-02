@@ -1,9 +1,9 @@
-const uuid = require('uuid/4')
+const { v4 } = require('uuid')
 
 function primeRequestContext(req, res, next){
 
     req.context = {
-        traceId : uuid()
+        traceId : v4()
     }
 
     next()
