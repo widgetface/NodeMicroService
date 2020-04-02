@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from 'react';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import { VideoPlayer } from './components'
 
 function App() {
   return (
     <div className="App">
-   React
+      <VideoPlayer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
